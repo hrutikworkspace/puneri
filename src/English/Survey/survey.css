@@ -1,0 +1,57 @@
+.header-margin-line2{
+    margin-top: -5rem;
+}
+.latestblog1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    margin-bottom: 2rem;
+    color: #0A0A13;
+}
+.card-blogs1 p{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    
+    
+    /* Black */
+    
+    color: #0A0A13;
+}
+.sur p{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+
+/* Black */
+
+color: #0A0A13;
+}
+.survey-img-card{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.sur span{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Black */
+
+color: #0A0A13;
+}
+

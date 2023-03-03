@@ -1,0 +1,232 @@
+header{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 30px 85px;
+}
+
+.logo img{
+    width: 70%;
+}
+
+nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: end;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    /* padding: 0px 35px; */
+
+}
+
+nav li a{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* Black */
+    
+    color: #0A0A13;
+}
+a,button{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-don {
+background: #191B51;
+border-radius: 10px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* White */
+padding: 10px 10px;
+color: #FFFFFF;
+margin-right: 1rem;
+border: none;
+}
+.btn-login {
+    background: #FFFFFF;
+border-radius: 10px;
+padding: 10px 10px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* Black */
+
+color: #0A0A13;
+border: none;
+}
+
+nav .navbar-toggle{
+position: absolute;
+top: 75px;
+right: 50px;
+width: 35px;
+display: none;
+}
+.navlinks{
+    display: flex;
+    align-items: inherit;
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+
+}
+.check{
+    display: none;
+}
+@media screen and (max-width:1278px){
+    nav{
+        padding: 0;
+    }
+    .navlinks{
+        position: absolute;
+        /* background: rgba(225, 225, 225, 0.20); */
+        backdrop-filter: blur(20px);
+        width: 100%;
+        /* height: 70vh; */
+        justify-content: center;
+        align-items: center !important;
+        top: 140px;
+        left: -100%;
+        transition: all 0.5s;
+        z-index: 1;
+    }
+    .navlinks ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navlinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav .navbar-toggle{
+        display: block;
+    }
+    nav li{
+        
+        padding: 10px 0px;
+    }
+    .check:checked ~ .navlinks {
+        left: 0 !important;
+    }
+
+    }
+    
+.btn-color{
+    background: #191B51;
+    float: right;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 6px
+ 18px;
+}
+.btn-text-col{
+    color: #FFFFFF;
+    padding: 7px 17px;
+}
+.btn-text-col:hover{
+    color: #FFFFFF;
+}
+.btn-color svg{
+    margin-right: 8px;
+}
+.active-class ul li .active{
+    color: #1C21AB !important;
+    display: block;
+    content: "";
+    /* border: 1px solid #1C21AB; */
+    border-bottom: 2px solid #1C21AB;
+    line-height: 30px;    
+    /* transform: translateY(-0.4rem); */
+}
+.active-class ul li .active{
+    color: #1C21AB !important;    
+}
+
+/* .active-class ul li a::after{
+    display: block;
+    content: "";
+    height: 3px;
+    background-color: coral;
+    margin: auto;
+      
+    
+}
+.active-class ul li a:hover::after{
+    width: 100%;
+    transition: width 0.3s linear;
+} */
+
+.dropdown{
+    position: relative;
+    float: right;
+    margin-bottom: 2rem;
+}
+.dropdown-toggle::after{
+    display: inline-block;
+    margin-left: 1rem !important;
+    vertical-align: 0.2rem !important;
+    content: "";
+    font-size: 20px !important;
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.btn-language{
+    background: #191B51;
+    border-radius: 5px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-language:hover{
+    /* background: #191B51;
+    border-radius: 5px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center; */
+    color: #FFFFFF;
+}
+.svg-btn{
+    margin-right: 10px;
+}
+.btn.focus, .btn:focus, .btn:hover{
+    color: #ffffff;
+}
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: black;
+}

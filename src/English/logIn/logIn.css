@@ -1,0 +1,157 @@
+
+.logo-head{
+    padding: 15px 70px;
+}
+.logo-head img{
+    width: 100px;
+}
+.form-divpm{
+    padding: 80px 170px;
+}
+.right-side-imagepm{
+    background-image: url('/public/images/pm.png');
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size:100% 100%;
+    position: relative;
+}
+
+.quotes-classpm{
+   position: relative;
+   top:41vh;
+    text-align: center;
+    padding: 8px 20px;
+}
+.quotes-classpm p{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.gandhi{
+    float: right;
+}
+.login-head{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #0A0A13;
+    margin-bottom: 1rem !important;
+}
+
+.form-grouppm label{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 15px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #0A0A13;
+}
+.form-control:focus{
+    background: #F0F3F3;
+border-radius: 10px;
+height: 50px;
+margin-top: 0.5rem !important;
+box-shadow: none;
+border-color: transparent;
+outline: none;
+}
+.form-control{
+background: #F0F3F3;
+border-radius: 10px;
+height: 50px;
+margin-top: 0.5rem !important;
+}
+.form-grouppm::placeholder{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #0A0A13;
+opacity: 0.8;
+}
+
+.form-grouppm {
+    margin-bottom: 15px;
+}
+.label-radio{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 14px;
+    line-height: 17px;
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    
+    color: #0A0A13;
+}
+.gender-label{
+    margin-top: 0.5rem;
+}
+
+.account-btnpm{
+    background: #191B51;
+    border-radius: 10px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 100%;
+    border: none;
+    padding: 15px 0px;
+}
+.login-bottompm{
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: baseline;
+}
+.login-bottompm a{
+    margin-left: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #1C21AB;
+}
+.login-bottompm p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 15px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+.class-sign{
+    position: relative;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:768px){
+    .form-divpm{
+        padding: 0 50px;
+    }
+}

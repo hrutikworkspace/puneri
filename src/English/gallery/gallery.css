@@ -1,0 +1,143 @@
+.future-p9 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+
+    /* Dark Blue */
+
+    color: #191B51;
+}
+ 
+.gal-p1 {
+    padding-top: 2rem;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #191B51;
+}
+
+.gal-p2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.75px;
+    line-height: 22px;
+    /* identical to box height */
+    padding-top: 2rem;
+    letter-spacing: -0.02em;
+
+    /* Dark Blue */
+
+    color: #191B51;
+}
+
+.gal-btn {
+    padding-top: 2rem;
+}
+
+.gallery-images {
+    height: 100%;
+    width: 100%;
+}
+
+.about-first-sec1 {
+    margin: -75px 0px;
+}
+
+.about-first-sec1 img {
+    width: 100%;
+}
+
+.gal-sec-1 {
+    padding: 0px 35px;
+    margin-bottom: 3rem;
+}
+
+.gal-sec-2 {
+    padding: 20px 35px;
+    margin-bottom: 2rem;
+}
+
+.gal-p3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+
+    /* Black */
+
+    color: #0A0A13;
+}
+
+.gal-p4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+
+    /* Med Blue */
+    float: right;
+    color: #1C21AB;
+}
+
+.gal-dhol {
+    padding-top: 2rem;
+}
+
+.gal-pt {
+    padding-top: 1rem;
+}
+
+@media (min-width:320px) and (max-width:1199px) {
+    .gallery-imagesDown {
+        padding-bottom: 1rem;
+    }
+
+    .gallery-imagesDown1 {
+        padding-bottom: 0.1rem;
+    }
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    .gal-p3 {
+        font-size: 12px;
+    }
+
+    .gal-p4 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .paddingAlldiv {
+        padding: 1rem 1rem;
+    }
+}
+
+@media (min-width:320px) and (max-width:370px) {
+    .btn-lets {
+        font-size: 15.1026px;
+        padding: 14px 11px;
+    }
+
+    .btn-lets2 {
+        font-size: 15.1026px !important;
+        padding: 14px 11px !important;
+    }
+}
+
+@media (min-width:376px){
+    .btn-lets{
+        margin-top: 1rem;
+    }
+}

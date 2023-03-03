@@ -1,0 +1,322 @@
+.mainUpload {
+    background-color: rgb(222, 215, 222);
+    max-height: 100%;
+}
+
+html{background-color: rgb(222, 215, 222);}
+
+.uploadFirst {
+    display: flex;
+    justify-content: space-between;
+    padding: 9rem 7rem;
+}
+
+.uploadSecond {
+    display: flex;
+    margin-top: -5rem;
+}
+
+.uplaodAllI{
+    padding: 0rem 2rem;
+}
+
+.uploadText {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+    color: #191b51;
+}
+
+.uploadArrow {
+    display: flex;
+    align-items: center;
+}
+
+.uploadRect {
+    margin-left: 5rem;
+    padding: 8rem 0rem;
+    background: #d4edff;
+    border: 1px dashed #343333;
+    border-radius: 10px;
+}
+
+.uploadText1 {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.1026px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.uploadButton1 {
+    border: none;
+    background: #ffffff;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 10px;
+}
+
+.uploadmainB {
+    text-align: center;
+}
+
+.upload1Img {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.uploadDelete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #cf0a0a;
+}
+
+.uploadTitle {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #0a0a13;
+}
+
+.uploadInput {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #0a0a13;
+}
+
+.uploadForm {
+    padding: 0rem 7rem;
+}
+
+.uploadDes {
+    height: 90px;
+}
+
+.uploadCol {
+    display: flex;
+}
+
+.uploadReq {
+    padding: 1rem 6rem;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #191b51;
+}
+
+.uploadReq3 {
+    padding: 1rem 3rem;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #191b51;
+}
+
+.uploadReq1 {
+    padding: 0 7rem;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    letter-spacing: -0.02em;
+    color: #191b51;
+}
+
+.uploadReq2 {
+    padding: 0 4rem;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    letter-spacing: -0.02em;
+    color: #191b51;
+}
+
+.uploadLastB {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.uploadCancle1 {
+    border: none;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    gap: 10px;
+}
+
+.uploadCancle {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0a0a13;
+}
+
+.uploadAm {
+    padding: 12.5641px 18.8462px;
+    gap: 12.56px;
+    background: #191b51;
+    border-radius: 12.5641px;
+    border: none;
+
+}
+
+.uploadA {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.1026px;
+    line-height: 24px;
+    color: #ffffff;
+    border: none;
+}
+
+@media (min-width:320px) and (max-width:375px) {
+    .uploadCancle {
+        font-size: 15px;
+    }
+
+    .uploadA {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .uploadFirst {
+        padding: 5rem 4rem;
+    }
+
+    .uploadText {
+        font-size: 6vw;
+        font-weight: 500;
+        font-family: 'Barlow';
+        line-height: 57.6px;
+        color: #191B51;
+    }
+
+    .uploadArrow img {
+        width: 6vw;
+    }
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    .uploadCol {
+        display: block;
+    }
+
+    .uploadSecond {
+        display: block;
+    }
+    .uploadRect{
+        margin-left: 0rem;
+    }
+
+    .uplaodAllI {
+        padding: 0rem 1rem;
+        padding-top: 1rem;
+    }
+
+    .uploadForm{
+        padding: 0rem;
+    }
+
+    .uploadTitle .uploadInput{
+        width: 100% !important;
+    }
+
+    .uploadReq{
+        padding: 0rem 2rem;
+    }
+
+    .uploadReq1{
+        padding: 0rem 4rem;
+    }
+
+    .uploadReq3{
+        padding: 0rem 2rem;
+    }
+
+    .uploadReq2{
+        padding: 0rem 4rem;
+    }
+}
+
+@media(min-width:767px) and (max-width:769px){
+    .uploadSecond {
+        display: flex;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .uploadCol {
+        display: flex !important;
+    }
+
+    .uploadRect{
+        margin-left: 0rem;
+    }
+
+    .uploadDelete{
+        padding-left: 2rem;
+    }
+
+    .uplaodAllI {
+        padding: 0rem;
+    }
+
+    .uploadTitle .uploadInput {
+        width: 100%;
+    }
+
+    .uploadForm {
+        padding: 0rem 3rem;
+    }
+    .uploadReq{
+        padding: 0rem 0rem;
+    }
+
+    .uploadReq1{
+        padding: 0rem 2rem;
+    }
+
+    .uploadReq3{
+        padding: 0rem 0rem;
+    }
+
+    .uploadReq2{
+        padding: 0rem 1rem;
+    }
+
+}

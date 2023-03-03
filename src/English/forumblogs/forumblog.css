@@ -1,0 +1,242 @@
+.trending2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+
+    /* Black */
+
+    color: #0A0A13;
+    margin-bottom: 1rem;
+    margin-top: 0 !important;
+}
+
+.left-side-details {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.left-side-info {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headings2 h4 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.headings2 p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    letter-spacing: -0.02em;
+    margin-bottom: 2.5rem;
+    color: #000000;
+}
+
+.margin-span {
+    margin-left: 10px;
+    margin-bottom: 2.5rem;
+}
+
+.span-comment {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+
+    /* Med Blue */
+
+    color: #1C21AB !important;
+}
+
+.blogd-comments2 {
+    display: flex;
+    padding: 12px 0px;
+    justify-content: center;
+    align-items: end;
+}
+
+.blogd-comments2 span {
+    /* padding-right: 2rem !important; */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #0A0A13;
+    padding: 0px 10px;
+    vertical-align: bottom;
+}
+
+.lowerLine-1 {
+    border: 0.5px solid #0A0A13;
+}
+
+.comment1 {
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem 3rem;
+}
+
+.commentStart{
+    padding-top: 4rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.commentStart2{
+    padding-left: 6rem;
+}
+
+.commentLoad{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: -0.02em;
+color: #1C21AB;
+}
+
+.commentLoadM{
+    padding-bottom: 3rem;
+    padding: 2rem 7rem;
+}
+
+.Forumname1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #0A0A13;
+}
+
+.comment1fourm {
+    padding: 0rem 3rem;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #0A0A13;
+
+}
+
+.commentLikeT {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #0A0A13;
+
+}
+
+.commentReplay {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #0A0A13;
+}
+
+.commentTime {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #0A0A13;
+}
+
+.comment1P {
+    width: 100%;
+    background: #E9F3F3;
+    border-radius: 5px;
+}
+
+.commentLike {
+    padding: 1rem 3rem;
+}
+
+.commentReplay {
+    padding: 0rem 6rem;
+}
+
+/* .relatedTopics{
+    padding-top: 2rem;
+} */
+
+@media (min-width:320px) and (max-width:768px){
+    .commentStart{
+        display: block;
+        padding-top: 1rem;
+    }
+    .comment1{
+        padding: 1rem 1rem;
+    }
+    .commentLike{
+        display: flex;
+    }
+    .commentTime{
+        display: flex;
+        align-items: center;
+    }
+    .commentTime .dotIcon{
+        width: 15% !important;
+    }
+
+    .commentLoadM{
+        padding: 2rem 1rem;
+    }
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    .header-pad{
+        padding: 30px 30px !important;
+    }
+    .commentStart2{
+        margin-left: -5rem;
+    }
+    .commentLike {
+        margin-left: 3rem;
+        padding: 1rem 0rem;
+    }
+    .commentReplay {
+        padding: 0rem 4rem;
+    }
+     .relatedTopics{
+    padding-top: 2rem;
+} 
+}
+
+@media(min-width:425px) and (max-width:469px){
+    .commentStart2{
+        margin-left: -5rem;
+    }
+}

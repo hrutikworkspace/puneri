@@ -1,0 +1,156 @@
+.facility-section{
+    background: #DED7DE;
+}
+.future-p3{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+/* or 33px */
+
+
+/* Black */
+
+color: #0A0A13;
+}
+.future-h5{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.02em;
+
+/* Dark Blue */
+
+color: #191B51;
+}
+.facility-first-sec{    
+    margin-top: -8rem;
+}
+.facility-first-sec img{
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+.ese-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.ese-image img{
+    width: 100%;
+}
+.intervention{
+    background: #DED7DE;
+}
+.sec-left-new{
+    font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 76%;
+/* or 49px */
+
+text-align: center;
+
+/* Black */
+margin-top: 7rem;
+    margin-bottom: 2rem;
+color: #0A0A13;
+}
+.class-inter{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+
+/* Black */
+
+color: #0A0A13;
+}
+.align-items-new{
+    padding: 0px 50px;
+}
+.key-img1{
+    position: relative;
+}
+.key-img{
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+.key-img img{
+    width: 100%;
+}
+.key-img2{
+    position: absolute;
+    top: -12px;
+    left: -200px;
+    /* background: #D0F3FF; */
+    mix-blend-mode: soft-light;
+    border-radius: 20px;
+    transform: rotate(3deg);
+    z-index: 1;
+}
+
+.header-pad-fac{
+    display: flex;
+    align-items: center;
+    padding: 30px 85px;
+
+}
+.top-class-fac{
+  padding-bottom: 5rem;
+}
+@media screen and (max-width:991px){
+    .key-img2{
+        top: -271px;
+    }
+}
+@media screen and (max-width: 575px){
+.header-pad-fac {
+    padding: 70px 48px !important;
+}
+.sec-left-new {
+    font-size: 38px !important;
+}
+.class-inter{
+    font-size: 15px;
+}
+.align-items-new{
+    padding: 0px 30px;
+}
+.future-h5{
+    font-size: 35px;
+}
+.future-p3{
+    font-size: 15px;
+}
+}
+@media screen and (max-width: 1165px){
+    .header-pad-fac {
+        padding: 70px 48px !important;
+    }}
+
+.content{
+    transition: all 0.6s linear;
+    position: relative;
+    z-index: 1;
+}
+.content2{
+    transition: all 0.6s linear;
+}
+.open{
+    transform: translateX(0px);
+    /* display: none; */
+}
+.open:checked ~ .content{
+    transform: translateX(90rem);
+}
+.open:checked ~ .content2{
+    transform: translateX(45rem);
+}

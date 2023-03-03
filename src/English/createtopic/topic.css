@@ -1,0 +1,30 @@
+.heading-top{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+/* Dark Blue */
+
+color: #191B51;
+}
+.outer-wrap{
+    padding: 30px 85px;
+    height: 100%;
+}
+.wrapper2{
+    background: #DED7DE;
+}
+.heading-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading-btn button{
+    background: transparent;
+    border: none;
+}

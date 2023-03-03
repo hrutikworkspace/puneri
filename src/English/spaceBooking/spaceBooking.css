@@ -1,0 +1,81 @@
+.spaceBookP {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #0a0a13;
+}
+
+.spaceBookOpen {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: #0a0a13;
+}
+.spaceButtons svg{
+  padding-right: 5px;
+}
+.spaceBookTitle {
+  padding-top: 1rem;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.bottom-cardSpaceP {
+  padding: 0rem 1rem;
+}
+
+.spaceBookSubT {
+  font-family: "Barlow" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  line-height: 14px !important;
+  letter-spacing: -0.02em !important;
+  color: #000000 !important;
+}
+.spaceButtons {
+  padding: 2rem 0rem;
+  padding-bottom: 1rem;
+}
+.spaceBookButt1 {
+  border: none;  
+  background: #191b51;
+  border-radius: 10px;
+  padding: 10px 15px;
+  gap: 10px;
+  color: #ffffff;
+}
+.spaceBookButt2 {
+  border: none;  
+  float: right;
+  background: #f1f1f1;
+  border-radius: 5px;
+  padding: 5px;
+  gap: 5px;
+  color: #1c21ab;
+}
+.spaceBook2T{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: -0.02em;
+color: #0A0A13;
+}
+
+@media (max-width:320px){
+    .blog-h5{
+        font-size: 36px;
+    }
+}

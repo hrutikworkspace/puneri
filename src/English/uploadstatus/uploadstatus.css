@@ -1,0 +1,106 @@
+
+* {
+    /* background: rgb(222, 215, 222); */
+}
+.Ups-upload{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Barlow';
+    line-height: 57.6px;
+    color: #191B51;
+}
+
+.Ups-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 7rem;
+}
+
+.Ups-upimg{
+    text-align: center;
+    background:rgb(222, 215, 222) !important;
+    background: url();
+mix-blend-mode: multiply;
+}
+
+
+.Ups-text{
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.Ups-button{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    
+}
+.Ups-button button{
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+
+}
+.Ups-cross{
+    display: flex;
+    align-items: center;
+}
+
+.btn-1{
+    margin-right: 3rem;
+    color: #0A0A13;
+    background-color: #FFFFFF;
+    font-weight: 500;
+}
+
+.btn-2{
+    color: #FFFFFF;
+    background-color: #191B51;
+}
+
+@media (max-width:768px){
+    .Ups-header{
+        padding: 5rem 4rem;
+    }
+
+    .Ups-upload{
+        font-size: 6vw;
+        font-weight: 500;
+        font-family: 'Barlow';
+        line-height: 57.6px;
+        color: #191B51;
+    }
+    .Ups-cross img{
+        width: 6vw;
+    }
+
+    
+}
+@media (max-width:425px){
+    .Ups-text{
+        font-size: 5vw;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media (min-width:425px) and (max-width:575px){
+    .Ups-text{
+       
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media (max-width:375px){
+    .Ups-button button{
+        padding: 1rem 1rem;
+        border-radius: 10px;
+        font-size: 4.2vw;
+        line-height: 24px;
+        font-weight: 500;
+    
+    }
+}

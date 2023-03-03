@@ -1,0 +1,262 @@
+.blog-h5{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+letter-spacing: -0.02em;
+
+/* Dark Blue */
+
+color: #191B51;
+}
+.blog-p{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+/* or 33px */
+margin-bottom: 3rem;
+
+/* Black */
+
+color: #0A0A13;
+}
+.header-pad2{
+    padding: 30px 80px;
+}
+.header-margin{
+    margin-top: -8rem;
+}
+.latestblog{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: -0.02em;
+margin-bottom: 2rem;
+/* Dark Blue */
+
+color: #191B51;
+}
+.card-blogs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 1rem;
+}
+.card-blogs p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+.bottom-card{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-card span{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+.bottom-card p{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+.others{
+    margin-top: 10px;
+}
+.botm p{
+    font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 130%;
+color: #FFFFFF;
+}
+.botm h5{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 76%;
+margin-bottom: 1.5rem !important;
+color: #FFFFFF;
+}
+.botm a{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 76%;
+/* or 18px */
+
+
+color: #FFFFFF;
+}
+.botd-sec{
+    background: #430087;
+    padding: 20px 40px;
+}
+.botd-sec1{
+    background: #430087;
+    padding: 20px 40px;
+}
+.new-changes{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+.new-changes i{
+    color: #8000FF;
+    font-size: 45px;
+    margin-right: 20px;
+}
+.likes{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+/* or 39px */
+color: #FFFFFF;
+}
+.blog-sec-new{
+    display: flex;
+    align-items: center;
+}
+.blog-footer{
+    background: #1C21AB;
+    border-radius: 12.5641px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 25px 0px;
+margin: 2.5rem 0rem;
+}
+.blog-footer p{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;
+/* Inside auto layout */
+margin-bottom: 0px !important;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.botm svg{
+    padding-left: 1rem;
+    margin-top: -0.5rem;
+}
+@media (max-width:660px){
+    .botm{
+        padding-bottom: 2rem;
+    }        
+    .botm h5{
+        line-height: 35px;
+    }
+    .d-flex{
+        display: block !important;
+        padding-bottom: 2rem;
+    }
+}
+@media (max-width:992px){
+    .botd-sec{
+        display: none;
+    }
+    .blog-sec-new{
+        display: block;
+    }
+}
+@media (min-width:992px) and (max-width:1240px){
+    .botd-sec{
+
+    }
+    .botd-sec{
+        display: none;
+    }
+    .botm h5{
+        line-height: 37px;
+    }
+}
+@media (min-width:1240px) and (max-width:2000px){
+    .botd-sec{
+
+    }
+    .botd-sec1{
+        display: none;
+    }
+}
+@media (min-width:660px) and (max-width:1165px){   
+    
+    .facility-first-sec img{
+        /* width: 75%; */
+    margin-top: -5rem;
+    }
+    .botm {
+        padding-bottom: 2rem;
+    }
+    .d-flex {
+        /* display: block !important; */
+        padding-bottom: 2rem;
+    }
+    .botm h5{
+        line-height: 37px;
+    }
+}
+@media (min-width:1540px) and (max-width:2000px){
+   
+    .blog-h5{
+        line-height: 100px;
+    }
+    .blog-p{
+        line-height: 65px;
+    }
+    .header-pad2{
+        padding: 160px 80px;
+    }
+}
+
+.header-pad-blog{
+    display: flex;
+    align-items: center;
+}
+
+.blog-first img{
+    width: 100%;
+}

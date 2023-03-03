@@ -1,0 +1,257 @@
+.facility-section{
+    background: #DED7DE;
+}
+.future-p3{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 150%;
+/* or 33px */
+
+
+/* Black */
+
+color: #0A0A13;
+}
+.future-h5{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -0.02em;
+
+/* Dark Blue */
+
+color: #191B51;
+}
+.facility-first-sec{    
+    margin-top: -8rem;
+}
+.facility-first-sec img{
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+/* .ese-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+} */
+.ese-image img{
+    width: 100%;
+    cursor: pointer;
+}
+.intervention{
+    background: #DED7DE;
+}
+.sec-left-new{
+    font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 76%;
+/* or 49px */
+
+text-align: center;
+
+/* Black */
+margin-top: 7rem;
+    margin-bottom: 2rem;
+color: #0A0A13;
+}
+.class-inter{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+
+/* Black */
+
+color: #0A0A13;
+}
+.align-items-new{
+    padding: 0px 50px;
+}
+.key-img1{
+    position: relative;
+}
+.key-img{
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+.key-img img{
+    width: 100%;
+}
+.key-img2{
+    position: absolute;
+    top: -12px;
+    left: -200px;
+    /* background: #D0F3FF; */
+    mix-blend-mode: soft-light;
+    border-radius: 20px;
+    transform: rotate(3deg);
+    z-index: 1;
+}
+
+.header-pad-fac{
+    display: flex;
+    align-items: center;
+    padding: 30px 85px;
+
+}
+.top-class-fac{
+  padding-bottom: 5rem;
+}
+@media screen and (max-width:991px){
+    .key-img2{
+        top: -271px;
+    }
+}
+@media screen and (max-width: 575px){
+.header-pad-fac {
+    padding: 70px 48px !important;
+}
+.sec-left-new {
+    font-size: 38px !important;
+}
+.class-inter{
+    font-size: 15px;
+}
+.align-items-new{
+    padding: 0px 30px;
+}
+.future-h5{
+    font-size: 35px;
+}
+.future-p3{
+    font-size: 15px;
+}
+}
+@media screen and (max-width: 1165px){
+    .header-pad-fac {
+        padding: 70px 48px !important;
+    }}
+
+.content{
+    transition: all 0.8s linear;
+    position: relative;
+    z-index: 1;
+}
+.content2{
+    transition: all 0.8s linear;
+}
+#open2{
+    transform: translateX(0px);
+    display:none;
+}
+/* .open label{
+    background: #999;
+    height: 16px;
+    width: 16px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+} */
+#open2:checked ~ label .content{
+    transform: translateX(90rem);
+}
+#open2:checked ~ label .content2{
+    transform: translateX(45rem);
+}
+/* .section-env{
+    display: none;
+} */
+.btn-check-after{
+    width: 100%;
+    padding: 13px 15px;
+    position: relative;
+    background: #0A0A13;
+    mix-blend-mode: screen;
+    border-radius: 5px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* align-items: center; */
+    text-align: inherit;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+    border: none;
+}
+.btn-new-after{
+    position: absolute;
+    left: 60px;
+    top: 30%;
+    width: 55%;
+}
+.btn-check-after:focus{
+    width: 100%;
+    padding: 13px 15px;
+    position: relative;
+    background: #ffffff;
+    mix-blend-mode: screen;
+    border-radius: 5px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* align-items: center; */
+    text-align: inherit;
+    color: #000000;
+    margin-bottom: 3rem;
+    border: none;
+}
+.btn-check-after:focus  .blackcolor{
+fill: black !important;
+}
+
+.images-sec{
+    background: #052B0E;
+}
+.svg-arrow2{
+    float: right;
+    display: flex;
+    position: relative;
+    top: 10px;
+}
+.ul-right{
+    padding: 0px 50px;
+}
+.li-right{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    list-style-type: disc;
+}
+label {
+    display: contents;
+    max-width: 100%;
+    /* margin-bottom: 5px; */
+    font-weight: 700;
+    /* width: 33%; */
+}
+
+/* .open + label{
+    background: #999;
+    height: 16px;
+    width: 16px;
+    display:inline-block;
+    padding: 0 0 0 0px;
+} */
+.new-class2{
+    margin-top: 3rem;
+}
+
+.ese2{
+    display: contents;
+}
